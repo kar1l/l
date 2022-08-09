@@ -9,7 +9,11 @@
 
 --]]
 
+--but yall should really join https://discord.gg/uPS8gqJrGQ
+
 --dont mess with he settings unless u know what ur doing
+--cam lock with dot / combo lock
+--not claiming it as mine its evan's camlock and 6akan's put together
 
 local Settings = {
     rewrittenmain = {
