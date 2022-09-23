@@ -77,7 +77,7 @@ local PredictionValue = 0.1259910
     function noob(player)
         local character
         repeat wait() until player.Character
-        local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(68, 214, 44), 0.3, 3)
+        local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(255, 192, 203), 0.3, 3)
         handler.Name = player.Name
         player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
 
@@ -104,13 +104,13 @@ local PredictionValue = 0.1259910
         placemarker.Anchored = true
         placemarker.CanCollide = false
         if Settings.rewrittenmain.DOT == true then
-        placemarker.Size = Vector3.new(6, 6, 6)
+        placemarker.Size = Vector3.new(8, 8, 8)
         else
         placemarker.Size = Vector3.new(0, 0, 0)
         end
-        placemarker.Transparency = 1
+        placemarker.Transparency = 0.5
         if Settings.rewrittenmain.DOT then
-        makemarker(placemarker, placemarker, Color3.fromRGB(68, 214, 44), 0.40, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(255, 192, 203), 0.40, 0)
         end
     end)
 
@@ -121,7 +121,7 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-						Title = "Lock Notification",
+						Title = "Virgin Lock",
 						Text = "Unlocked",
 						Icon = "",
 						Duration = 1,
@@ -133,7 +133,7 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-						Title = "Lock Notification",
+						Title = "Virgin Lock",
 						Text = "Locked On :"..tostring(Plr.Name); 
 						Icon = "",
 						Duration = 1,
