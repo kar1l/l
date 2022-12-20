@@ -9,11 +9,7 @@
 
 --]]
 
---but yall should really join https://discord.gg/uPS8gqJrGQ
-
---dont mess with he settings unless u know what ur doing
---cam lock with dot / combo lock
---not claiming it as mine its evan's camlock and 6akan's put together
+--skidded
 
 local Settings = {
     rewrittenmain = {
@@ -24,11 +20,11 @@ local Settings = {
         NOTIF = true, 
         AUTOPRED = false, 
         FOV = math.huge,
-        RESOVLER = false 
+        RESOVLER = true 
     }
 }
 
-local SelectedPart = "UpperTorso"                              
+local SelectedPart = "HumanoidRootPart"                              
 local Prediction = true
 local PredictionValue = 0.1259910                            
 
@@ -121,10 +117,10 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-						Title = "Virgin Lock",
+						Title = "esex? karl#6666",
 						Text = "Unlocked",
 						Icon = "",
-						Duration = 1,
+						Duration = 2,
 })
             end
             else
@@ -133,10 +129,10 @@ local PredictionValue = 0.1259910
                 if Settings.rewrittenmain.NOTIF == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-						Title = "Virgin Lock",
+						Title = "esex? karl#6666",
 						Text = "Locked On :"..tostring(Plr.Name); 
 						Icon = "",
-						Duration = 1,
+						Duration = 2,
 })
 
                 end
@@ -306,7 +302,7 @@ local PredictionValue = 0.1259910
 --the cam lock
 
 getgenv().Prediction = 0.143105125985120958176	
-getgenv().AimPart = "UpperTorso"	
+getgenv().AimPart = "HumanoidRootPart"	
 getgenv().Key = "Q"	
 getgenv().DisableKey = "P"	
 	
