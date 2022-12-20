@@ -9,7 +9,11 @@
 
 --]]
 
---skidded
+--i didnt make this lock, i just made it better
+--minecraft terms : i went from a wooden sword to a diamond enchanted sword
+--fortnite terms : i went from using a common assault rifle to a golden scar
+--da hood terms : i had 1K dhc now i have 100M dhc
+--roblox terms : i had 0 robux on my acc, but later 1M
 
 local Settings = {
     rewrittenmain = {
@@ -47,7 +51,7 @@ local PredictionValue = 0.1259910
         e.AlwaysOnTop = Settings.rewrittenmain.DOT
         local a = Instance.new("Frame", e)
         if Settings.rewrittenmain.DOT == true then
-        a.Size = UDim2.new(0, 0, 0)
+        a.Size = UDim2.new(2, 2, 2)
         else
         a.Size = UDim2.new(0, 0, 0, 0)
         end
@@ -100,7 +104,7 @@ local PredictionValue = 0.1259910
         placemarker.Anchored = true
         placemarker.CanCollide = false
         if Settings.rewrittenmain.DOT == true then
-        placemarker.Size = Vector3.new(8, 8, 8)
+        placemarker.Size = Vector3.new(0, 0, 0)
         else
         placemarker.Size = Vector3.new(0, 0, 0)
         end
